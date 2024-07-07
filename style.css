@@ -1,0 +1,319 @@
+/* header */
+.backgroundimg{
+    background-image:url("https://artinterior.ua/wp-content/uploads/2014/12/living-room_web01.jpg");
+    height: 550px;   
+    }
+    header h1{
+        font-size: 25px;
+        font-family: 'Arial', sans-serif;
+        color: #331100;
+        background-color: rgba(255, 255, 255, 0.5 );
+        width: 150px;
+        display: inline;
+    }
+    .place{
+    float: right;
+    }
+    header h2{
+        font-size: 45px;
+      background-color: rgba(255, 255, 255, 0.5 );
+       width: 590px;
+        text-align: center;
+        margin-left: 25%;
+        margin-top: 15%;
+        font-family: FreeMono, monospace;
+        color: #331100;
+    }
+    /*main */
+    main h1{
+        font-family: Courier, monospace;
+        font-size: 45px;
+        text-align: center;
+    }
+    main a{
+        text-decoration: none;
+        color: white;
+    }
+    .design{
+     background-image: linear-gradient( to bottom right, #7d7591,#857a8f,#8c808c, #94858a,  #9c8a87,  #a38f85,  #ab9482) ;
+    }
+    main h2{
+        font-size: 35px;
+        text-align: center;
+        font-family: Comic Sans MS, Comic Sans, cursive;
+    }
+    .photos-1 {
+        width: 550px;
+        height: 460px;
+        opacity: 0.5;
+        margin-left: 25%;
+        box-shadow: 5px 5px 5px 0 black ;
+    }
+    .photos-2{
+        width: 550px;
+        height: 460px;
+        opacity: 0.5;
+        margin-left: 25%;
+        box-shadow: 5px 5px 5px 0 black ;
+    }
+    /*наші полуги*/
+    .designa:hover{
+        font-size: 30px;
+        padding: 20px;
+        border-bottom: 5px solid white;
+        transition: 1s ease-in;
+    }
+    .designa{
+        padding: 15px;
+        background-color:#101011 ;
+        font-size: 25px;
+    }
+      .design {
+                text-align: center;
+                 margin: 0;
+                font-family: Arial, sans-serif;
+                background-color: #f8f8f8;
+            }
+            .designh{
+                padding: 25px;
+                font-size: 34px;
+                background-color: #ffffff;
+                  font-family: Arial, sans-serif;
+            }
+            .designs {
+                position: relative;
+                color: white;
+            }
+            .designs img {
+     width: 100%;
+     height: auto;
+     max-width: 100%;
+            }
+            .design-title {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-weight: bold;
+                text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+            }
+        /*Наші роботи */
+        .movement{
+          display:block;
+          justify-content: center;
+          margin-left: 8%;
+          margin-right: 8%;
+        }
+    /* Розрахунок вартості дизайну інтерєту */
+    article{
+        background-color: #696969;
+    }
+    article p{
+        font-size: 25px;
+    }
+    main a{
+        font-size: 20px;
+    }
+    article img{
+          width: 450px;
+        height: 360px;  
+         padding: 10px;
+         margin: 10px;
+    }
+    article img:hover{
+        padding: 10px;
+         box-shadow:0 10px 15px 0 black;
+         width: 500px;
+        height: 400px;
+          transition: 0.5s ease-out;
+    }
+    .calculation{
+        display: flex;
+    }
+    /* Чому варто замовляти у нас? */
+    .reasons{
+        background-color: #333333 ;
+        height: 800px;
+    }
+    .p{
+       font-size: 20px; 
+       color: white;
+       margin-top:15px ;
+    }
+    .reasonsh1{
+        color: white;
+    }
+    .reasonsimg{
+        width: 300px;
+        height: 250px;
+        float: right;
+        padding: 25px;
+        padding-top: 5px;
+    
+    }
+    .reasonsimg-2{
+         width: 300px;
+        height: 250px;
+       float: left;
+        padding: 20px;
+    }
+    .reasons-2{
+        display: flexbox;
+    }
+    .text-1{
+        padding: 20px;
+         font-family: Arial, sans-serif;
+    }
+    .text-2{
+        float: right;
+        padding: 20px;
+         font-family: Arial, sans-serif;
+    }
+      .number {
+                color: #ffaa00;
+                font-size: 24px;
+            }
+    /* Головний дизайнер */
+    .advice{
+        display: flex;
+         float: left;
+    }
+    .adviceimg{
+    border-radius:50% ;
+    width: 350px;
+        height: 350px;
+        border: 10px solid rgb(222, 178, 18);
+        padding: 9px;
+    }
+    span{
+        color: rgb(222, 178, 18);
+    }
+    /* Основна команда */
+    .team{
+        display:flex;
+         margin: 15%;
+         margin-top: 0;
+         margin-bottom: 0;
+         justify-content: center;
+    }
+    .contract{
+        background-color: #1b1b1d;
+    }
+    .position{
+        font-size: 16px;
+    }
+    .teamimg{
+        border: 8px solid rgb(222, 178, 18) ;
+        width: 350px;
+        height: 350px;
+        padding: 10px;
+         margin-right: 10px;
+    }
+    .teamtext{
+        font-size: 25px;
+    }
+    /*Етапи роботи*/
+    .stage{
+       background-color: #1b1b1d;
+    }
+    .stagep{
+        color: white;
+        font-size: 28px;
+    }
+    .stageh{
+        color: white;
+        font-size: 39px;
+         font-family: Arial, sans-serif;
+    }
+            .stepss {
+                   font-family: Arial, sans-serif;
+                justify-content: space-between;
+                color:#ffffff ;
+                padding: 10px 20px;
+                background-color: #1b1b1d ;
+            }
+            .step {
+              margin-top: 5px;
+                display: flex; 
+            }
+            .step-number{
+                width: 30px;
+                height: 30px;
+                background-color: #ffaa00;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-right: 10px;
+            }
+            .step-text{
+                font-size: 28px;
+            }
+
+/*Договір*/
+.contrac{
+    justify-content: center;
+    width: 400px;
+    height: 450px;
+    margin: 1%;
+}
+            .reviewhs{
+                color:#ffaa00 ;
+            }
+    /*Відгуки*/
+    aside{
+        background-color: #101011 ;
+    }
+    .reviewh{
+        color:#1b1b1d ;
+    }
+            .review{
+         border-right: 10px dotted #ffaa00;
+         color: white;
+     }
+     .i{
+      color: #ffaa00;
+      margin-left: 50px;
+     }
+     .reviews{
+        font-size: 20px;
+          font-family: sans-serif;
+     }
+     .reviewimg{
+    border-radius:50% ;
+    width: 70px;
+        height: 70px;
+        border: 5px solid rgb(222, 178, 18);
+        padding:3px;
+    }
+    .reviews{
+        display: flex;
+    }
+    /*footer*/
+    footer{
+        color: white;
+    background-color: #0b0b0c;
+    }
+    footer p{
+        margin-left: 37%;
+        font-size: 25px;
+        text-align: center;
+    }
+    .footer{
+        display: flex;
+    }
+    .icons{
+    height: 15px;
+    width: 15px;
+    }
+    table{
+        text-align: center;
+        font-size: 29px;
+        color: white;
+    }
+    .contacts{
+         display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
